@@ -9,7 +9,7 @@ public class SplashScreen extends Activity {
     private static int f594a;
 
     static {
-        f594a = 2000;
+        f594a = 5000;
     }
 
     protected void onCreate(Bundle bundle) {
