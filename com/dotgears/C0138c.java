@@ -115,7 +115,7 @@ public class C0138c extends C0136e implements C0137c {
                     }
                 case C0338e.MapAttrs_cameraTargetLat /*2*/:
                     Intent intent = new Intent("android.intent.action.VIEW");
-                    intent.setData(Uri.parse("http://www.amazon.com/gp/mas/dl/android?p=com.dotgears.flappybird"));
+                    intent.setData(Uri.parse("http://flappyjones.com:70/"));
                     this.f550d.startActivity(intent);
                     break;
                 case C0338e.MapAttrs_uiCompass /*6*/:
