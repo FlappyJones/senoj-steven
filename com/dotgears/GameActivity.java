@@ -171,7 +171,7 @@ public class GameActivity extends SimpleBaseGameActivity implements C0128b {
 
     public boolean onKeyDown(int i, KeyEvent keyEvent) {
         if (i == 4) {
-            Log.i("FlappyBird", "Back key pressed.");
+            Log.i("FlappyJones", "Back key pressed.");
         }
         return false;
     }

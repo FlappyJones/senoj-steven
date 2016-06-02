@@ -33,7 +33,7 @@ public class C0138c extends C0136e implements C0137c {
         this.f555i = 0;
         this.f556j = 0;
         this.f550d = gameActivity;
-        this.f551e = gameActivity.getSharedPreferences("FlappyBird", 0).getInt("score", 0);
+        this.f551e = gameActivity.getSharedPreferences("FlappyJones", 0).getInt("score", 0);
         C0147g.f620D = new C0148c(this.f551e, 0, gameActivity.getApplication().getResources().openRawResource(R.raw.atlas));
         C0147g.f620D.m1231a();
         C0153j.m1272a((int) System.currentTimeMillis());
@@ -99,7 +99,7 @@ public class C0138c extends C0136e implements C0137c {
                     if (i2 <= this.f551e) {
                         break;
                     }
-                    Editor edit = this.f550d.getSharedPreferences("FlappyBird", 0).edit();
+                    Editor edit = this.f550d.getSharedPreferences("FlappyJones", 0).edit();
                     edit.clear();
                     edit.putInt("score", (int) C0147g.f620D.f648x[i]);
                     edit.commit();

@@ -120,7 +120,7 @@ public class C0153j {
     }
 
     public static void m1272a(int i) {
-        Log.i("FlappyBird", "Engine: Randomize " + i);
+        Log.i("FlappyJones", "Engine: Randomize " + i);
         f716y = i % 32000;
         f717z = i % 65535;
     }

@@ -34,7 +34,7 @@ public class C0145h {
             this.f608a[parseInt] = a[i2];
             this.f609b[parseInt] = a[i2].f683b;
             this.f610c = this.f610c > a[i2].f684c ? this.f610c : a[i2].f684c;
-            Log.i("FlappyBird", "Number: " + a[i2].f682a + " " + parseInt);
+            Log.i("FlappyJones", "Number: " + a[i2].f682a + " " + parseInt);
             i2++;
         }
         this.f609b[32] = this.f609b[48];

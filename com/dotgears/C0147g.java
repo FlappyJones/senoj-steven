@@ -63,7 +63,7 @@ public class C0147g extends C0140m {
                         c0152i.f687f = c0152i.f685d + c0152i.f687f;
                         c0152i.f688g = c0152i.f686e + c0152i.f688g;
                         this.f625a[c0152i.f689i] = c0152i;
-                        Log.i("FlappyBird", c0152i.f682a + " " + c0152i.f683b + " " + c0152i.f684c + " " + c0152i.f685d + " " + c0152i.f686e + " " + c0152i.f687f + " " + c0152i.f688g);
+                        Log.i("FlappyJones", c0152i.f682a + " " + c0152i.f683b + " " + c0152i.f684c + " " + c0152i.f685d + " " + c0152i.f686e + " " + c0152i.f687f + " " + c0152i.f688g);
                     }
                 } else {
                     return;
